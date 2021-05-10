@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/3616e96215.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<section class="header" id="home">
+ <h1>RMP<span>TRUCK</span></h1>
+   <ul>
+     <li><a href="#home">Home</a></li>
+     <li><a href="#about">About</a></li>
+     <li><a href="#blog">Blog</a></li>
+     <li><a href="#">Contact</a></li>
+   </ul>
+</section>
+
+<section class="bgimg">
+  <div class="txt">
+    <h1>RMPTruck</h1>
+    <h2>We offer transport services</h2>
+    <button>Learn more</button>
+</div>
+</section>
+
+<section class="about" id="about">
+<img src="https://www.tecequipment.com/app/uploads/2019/07/Volvo-860-Semi-Truck.jpg">
+<div class="about-txt">
+  <h1>ABOUT</h1>
+  <h2>We offer fast and secure
+transport and others services.</h2>
+  <button>Read more</button>
+</div>
+</section>
+
+<section class="wwo" id="blog">
+<div class="wwo-text">
+  <h1>What we offer</h1>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Aliquam purus sit amet
+luctus venenatis lectus magna fringilla urna.</h2>
+</div>
+</section>
+
+<section class="ceo">
+<img src="https://th.bing.com/th/id/R1dfe52e831ec3616581687efe30058b3?rik=JbJOevU7OJkQWQ&pid=ImgRaw">
+<div class="ceo-txt">
+<i class="far fa-user-circle"><h1>John Doe</h1>
+</i>
+<h2>CEO/RMPTRUCK</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</section>
+
+<section class="name">
+  <h1>RMPTRUCK</h1>
+</name>
+
+<section class="footer">
+<ul class="social-media">
+  <li><i class="fab fa-facebook" id="facebook"></i></li>
+  <li><i class="fab fa-instagram" id="instagram"></i></li>
+  <li><i class="fab fa-youtube" id="youtube"></i></li>
+</ul>
+
+<div class="services">
+  <h3>Our Services:</h3>
+  <ul class="row">
+    <li>Transport</li>
+    <li>24 hours work</li>
+    <li>Secure transport</li>
+    <li>23+ countries</li>
+  </ul>
+</div>
+</section>
+
+</body>
+</html>
+<style>
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  height: 10vh;
+  background-color: #2E86AB;
+  margin: 0;
+  padding: 0;
+}
+.header h1{
+  color: lightgreen;
+  padding: 12px 0 0 8px;
+  margin: 0;
+  font-size: 30px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.header span{
+  color: white;
+}
+.header ul{
+  list-style-type: none;
+  float: right;
+  margin: -30px 15px 0 0;
+}
+.header li{
+  display: inline-block;
+  padding: 0 18px 0 18px;
+}
+.header li a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  padding: 0 0 9px 0;
+}
+.header li a:hover{
+  border-bottom: 5px solid white;
+  transition: 0.2s;
+}
+.bgimg{
+  width: 100%;
+  height: 90vh;
+  background-image: url(https://th.bing.com/th/id/R2022c9c17e27d6e7a89a0f29e6a30d1f?rik=JQ%2fv8ia%2f%2f7DsWg&pid=ImgRaw);
+  background-size: cover;
+  margin: 0;
+}
+.bgimg .txt{
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: auto;
+  text-align: center;
+}
+.txt{
+  font-family: sans-serif;
+}
+.txt h1{
+  color: white;
+  font-size: 35px;
+  text-shadow: 3px 3px 3px black;
+}
+.txt h2{
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 5px;
+}
+.txt button{
+  margin-top: 9px;
+  width: 150px;
+  height: 35px;
+  background-color: white;
+  color: black;
+  font-size: 23px;
+  cursor: pointer;
+  font-weight: 600;
+  border: 5px solid black;
+}
+.txt button:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  border: 4px solid white;
+}
+.about{
+  width: 100%;
+  height: 50vh;
+  border-top: 4px solid blue;
+  margin: 0;
+  border-bottom: 4px solid blue;
+  background-color: #e6e6e6;
+}
+.about img{
+  width: 50%;
+  height: 280px;
+  margin: 0;
+}
+.about-txt{
+  width: 40%; 
+  height: 100px;
+  position: relative;
+  top: -80%;
+  left: 55%;
+  font-family: sans-serif;
+}
+.about-txt h1{
+  margin: -45px 0 10px 0;
+  text-align: center;
+  font-size: 35px;
+}
+.about-txt h1::after{
+  content:'';
+  width: 40%;
+  height: 5px;
+  margin: auto;
+  background-color: blue;
+  display: block;
+}
+.about-txt h2{
+  font-size: 25px;
+  margin-top: 15px;
+}
+.about-txt button{
+  margin-top: 20px;
+  width: 150px;
+  height: 34px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: transparent;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.about-txt button:hover{
+  color: white;
+  background-color: black;
+  border: 4px solid blue;
+}
+.wwo{
+  width: 100%;
+  height: 43vh;
+  background-color: #404040;
+  border-bottom: 4px solid blue;
+}
+.wwo-text{
+  text-align: center;
+  position: relative;
+  top: 10%;
+  font-family: sans-serif;
+  width: 75%;
+  margin: auto;
+}
+.wwo-text h1{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.wwo-text h1::after{
+  content:'';
+  width: 20%;
+  height: 5px;
+  margin: auto;
+  background-color: blue;
+  display: block;
+}
+.wwo-text h2{
+  color: white;
+  font-size: 25px;
+}
+.ceo{
+  width: 100%;
+  height: 50vh;
+  background-color: #e6e6e6;
+  border-bottom: 4px solid blue;
+  margin: 0;
+}
+.ceo img{
+  width: 50%;
+  height: 285px;
+}
+.ceo-txt{
+  position: relative;
+  top: -60%;
+  left: 75%;
+  transform: translate(-50% , -50%);
+  width: 45%;
+  font-family: sans-serif;
+}
+.ceo-txt i{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.ceo-txt h1{
+  font-size: 34px;
+  margin: -40px 0 0 60px;
+  font-family: sans-serif;
+}
+.ceo-txt h1::after{
+  content:'';
+  width: 90%;
+  height: 5px;
+  margin: auto;
+  background-color: blue;
+  display: block;
+}
+.ceo-txt h2{
+  margin: -10px 0 0 15px;
+}
+.ceo-txt p{
+  font-weight: 500;
+  font-size: 20px;
+}
+.name {
+  width: 100%;
+  height: 47px;
+  background-color: #d3d3d3;
+  border-bottom: 5px solid blue;
+}
+.name h1{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+  font-size: 33px;
+  cursor: pointer;
+}
+.footer{
+  background-color: #262626;
+  width: 100%;
+  height: 40vh;
+}
+.footer #facebook, #instagram, #youtube {
+  color: white;
+  font-size: 35px;
+}
+.footer #facebook:hover{
+  color: #1877F2;
+}
+.footer #instagram:hover{
+  color: #ff5700;
+}
+.footer #youtube:hover{
+  color: #e60000;
+}
+.footer .social-media{
+   list-style-type: none;
+   float: left;
+   margin: 20px 0 0 15px;
+}
+.footer .social-media li{
+  display: block;
+  padding: 10px 0 10px 0;
+}
+.services{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+.services h3{
+  color: white;
+  font-size: 30px;
+}
+.row{
+  list-style-type: none;
+}
+.row li {
+  color: white;
+  font-size: 20px;
+  padding: 5px 0 5px 0;
+}
+@media (max-width: 1500px){
+.header li{
+  display: inline-block;
+  padding: 0 40px 0 40px;
+}
+}
+@media (max-width: 1100px){
+.header li{
+  display: inline-block;
+  padding: 0 36px 0 36px;
+}
+}
+@media (max-width: 900px){
+.header li{
+  display: inline-block;
+  padding: 0 26px 0 26px;
+}
+}
+@media (max-width: 700px){
+  .header ul{
+    display: none;
+  }
+  .wwo-text{
+    width: 100%;
+  }
+}
+@media (max-width: 500px){
+.about{
+   height: 100vh;
+}
+.about img{
+  width: 100%;
+ }
+.about-txt {
+  top: 10%;
+  left: 0;
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+.wwo{
+   height: 50vh;
+}
+.wwo-text h2{
+  color: white;
+  font-size: 21px;
+}
+.ceo{
+  height: 100vh;
+}
+.ceo img{
+  width: 100%;
+}
+.ceo-txt{
+  top: 23%;
+  position: relative;
+  left: 45%;
+  width: 90%;
+  margin: auto;
+}
+}
+@media (max-width: 320px){
+.wwo{
+   height: 68vh;
+}
+.wwo-text h2{
+  color: white;
+  font-size: 19px;
+}
+.ceo-txt{
+  top: 28%;
+  position: relative;
+  left: 45%;
+  width: 90%;
+  margin: auto;
+}
+.ceo{
+  height: 110vh;
+}
+.footer{
+  height: 70vh;
+  margin: 0;
+}
+.footer .social-media li{
+  display: inline-block;
+}
+.social-media{
+  position: relative;
+  top: 75%;
+  left: 30%;
+}
+}
+</style>
